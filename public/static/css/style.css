@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+#mid-box {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 42%;
+  min-height: 100px;
+  background-color: aliceblue;
+  padding: 1%;
+  text-align: center;
+}
+
+#bungkus{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+input.kotak{
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  padding: 5px;
+}
+
+
+#shuffle{
+  margin-top: 15px;
+  padding: 5px;
+  width: 100px;
+}
